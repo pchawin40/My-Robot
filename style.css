@@ -1,0 +1,160 @@
+body{
+	background: url("https://i.pinimg.com/originals/09/21/e6/0921e66c30557dd343fa3c866466fa75.png") no-repeat center center fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	right: 50%;
+	left: 40%;
+	top: 5%;
+	width: fit-content;
+	line-height: 10vh;
+	font-size: 5vh;
+}
+
+h1:hover{
+	font-weight: bolder;
+	transform: scale(1.5);
+}
+
+.robots {
+	margin-left: -1250px;
+	margin-top: 450px;
+}
+
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: blue;
+}
+
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.left_eye:hover, .right_eye:hover{
+	transform: scale(1.3);
+}
+
+.head:hover {
+	width: 300px; 
+  transition: 1s ease-in-out; 
+}
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	justify-content: center;
+	display: flex; 
+	margin: 0 auto;
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+} 
+
+.left_arm:hover{
+	-webkit-transform: rotateZ(100deg);
+    -moz-transform: rotateZ(100deg);
+    -o-transform: rotateZ(100deg);
+    -ms-transform: rotateZ(100deg);
+	transform: rotateZ(100deg);
+}
+
+.right_arm { 
+	margin-left: 10px; 
+} 
+
+.right_arm:hover{
+	-webkit-transform: rotateZ(-100deg);
+    -moz-transform: rotateZ(-100deg);
+    -o-transform: rotateZ(-100deg);
+    -ms-transform: rotateZ(-100deg);
+	transform: rotateZ(-140deg);
+}
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+} 
+
+.torso:hover{
+	transform: scale(1.1);
+	/* give the robot a coat */
+	background-color: yellow;
+}
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	margin: 0 auto;
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 120px; 
+	margin-top: -120px;
+}
+
+.right_leg:hover{
+	-webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+	transform: rotate(-20deg);
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 80px; 
+	left: 120px; 
+}
